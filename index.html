@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebDev-Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/index.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -28,166 +28,176 @@
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="framer.html">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <section class="hero-section">
-      <div class="avatar">
-        <img src="images/avatar.png" alt="avatar" id="avatar" height="200px" />
-      </div>
-      <h2 style="font-size: 70px; font-weight: 700">
-        I do code and<br />make content <span class="text">about it!</span>
-      </h2>
-      <br />
-      <br />
-      <article class="article">
-        <p style="font-size: 18px">
-          I am a seasoned full-stack software enigineer with over <br />8 years
-          of professional experience, specializing in back-end development.
-          <br />My expertise lies in crafting robust and scalable Saas-based
-          <br />architectures on the Amazon AWS platform.
-        </p>
+    <main>
+      <section class="hero-section">
+        <div class="avatar">
+          <img
+            src="images/avatar.png"
+            alt="avatar"
+            id="avatar"
+            height="200px"
+          />
+        </div>
+        <h2 style="font-size: 70px; font-weight: 700">
+          I do code and<br />make content <span class="text">about it!</span>
+        </h2>
         <br />
         <br />
-        <div style="display: flex; gap: 20px; justify-content: center">
-          <button style="padding: 10px 20px; border-radius: 20px; border: none">
-            Get in Touch
-          </button>
-          <button
-            style="
-              padding: 10px 20px;
-              background-color: black;
-              color: white;
-              border: 1px solid white;
-              border-radius: 20px;
-            "
-          >
-            Download CV
-          </button>
+        <article class="article">
+          <p style="font-size: 18px">
+            I am a seasoned full-stack software enigineer with over <br />8
+            years of professional experience, specializing in back-end
+            development. <br />My expertise lies in crafting robust and scalable
+            Saas-based <br />architectures on the Amazon AWS platform.
+          </p>
+          <br />
+          <br />
+          <div style="display: flex; gap: 20px; justify-content: center">
+            <button
+              style="padding: 10px 20px; border-radius: 20px; border: none"
+            >
+              Get in Touch
+            </button>
+            <button
+              style="
+                padding: 10px 20px;
+                background-color: black;
+                color: white;
+                border: 1px solid white;
+                border-radius: 20px;
+              "
+            >
+              Download CV
+            </button>
+          </div>
+        </article>
+        <br />
+        <br />
+        <p style="color: grey">EXPERIENCE WITH</p>
+        <br />
+        <br />
+        <ul>
+          <li>
+            <span class="script" style="font-size: 36px"
+              ><i class="fa-brands fa-js"></i
+            ></span>
+          </li>
+          <li>
+            <span class="script" style="font-size: 36px"
+              ><i class="fa-brands fa-html5"></i
+            ></span>
+          </li>
+          <li>
+            <span class="script" style="font-size: 36px"
+              ><i class="fa-brands fa-css3-alt"></i
+            ></span>
+          </li>
+          <li>
+            <span class="script" style="font-size: 36px"
+              ><i class="fa-brands fa-react"></i
+            ></span>
+          </li>
+          <li>
+            <span class="script" style="font-size: 36px"
+              ><i class="fa-brands fa-node-js"></i
+            ></span>
+          </li>
+        </ul>
+      </section>
+      <br />
+      <br />
+      <article class="second article">
+        <h3 style="color: orangered; text-align: center">PROJECTS</h3>
+        <div class="projects">
+          <div class="image">
+            <img src="images/1st Project.png" alt="Project 1" />
+          </div>
+          <div class="second image">
+            <img src="images/2nd Project.png" alt="Project 2" />
+          </div>
         </div>
       </article>
       <br />
-      <br />
-      <p style="color: grey">EXPERIENCE WITH</p>
-      <br />
-      <br />
-      <ul>
-        <li>
-          <span class="script" style="font-size: 36px"
-            ><i class="fa-brands fa-js"></i
-          ></span>
-        </li>
-        <li>
-          <span class="script" style="font-size: 36px"
-            ><i class="fa-brands fa-html5"></i
-          ></span>
-        </li>
-        <li>
-          <span class="script" style="font-size: 36px"
-            ><i class="fa-brands fa-css3-alt"></i
-          ></span>
-        </li>
-        <li>
-          <span class="script" style="font-size: 36px"
-            ><i class="fa-brands fa-react"></i
-          ></span>
-        </li>
-        <li>
-          <span class="script" style="font-size: 36px"
-            ><i class="fa-brands fa-node-js"></i
-          ></span>
-        </li>
-      </ul>
-    </section>
-    <br />
-    <br />
-    <article class="second article">
-      <h3 style="color: orangered; text-align: center">PROJECTS</h3>
-      <div class="projects">
-        <div class="image">
-          <img src="images/1st Project.png" alt="Project 1" />
-        </div>
-        <div class="second image">
-          <img src="images/2nd Project.png" alt="Project 2" />
-        </div>
-      </div>
-    </article>
-    <br />
-    <article
-      class="fourth article"
-      style="
-        width: fit-content;
-        margin: auto;
-        margin-top: 150px;
-        margin-bottom: 200px;
-      "
-    >
-      <div>
-        <h3 style="margin: 10px 0; color: blue">EXPERIENCE</h3>
-        <div style="display: flex; justify-content: space-between">
-          <p style="font-size: 18px">
-            <span><i class="fa-brands fa-google"></i></span>
-            Lead Software Engineer at Google.
+      <article
+        class="fourth article"
+        style="
+          width: fit-content;
+          margin: auto;
+          margin-top: 150px;
+          margin-bottom: 200px;
+        "
+      >
+        <div>
+          <h3 style="margin: 10px 0; color: blue">EXPERIENCE</h3>
+          <div style="display: flex; justify-content: space-between">
+            <p style="font-size: 18px">
+              <span><i class="fa-brands fa-google"></i></span>
+              Lead Software Engineer at Google.
+            </p>
+            <p style="font-size: 18px">Nov 2019 - Present</p>
+          </div>
+          <br />
+          <p style="color: grey; font-style: italic">
+            As a senior software engineer at Google, I played a pivotal role in
+            developing innovative solutions for Google's<br />core search
+            algorithms. Collaborating with a dynamic team of engineers, I
+            contributed to the enhancement of<br />search accuracy and
+            efficiency, optimizing user experiences for millions of users
+            worldwide.
           </p>
-          <p style="font-size: 18px">Nov 2019 - Present</p>
-        </div>
-        <br />
-        <p style="color: grey; font-style: italic">
-          As a senior software engineer at Google, I played a pivotal role in
-          developing innovative solutions for Google's<br />core search
-          algorithms. Collaborating with a dynamic team of engineers, I
-          contributed to the enhancement of<br />search accuracy and efficiency,
-          optimizing user experiences for millions of users worldwide.
-        </p>
-        <div
-          style="
-            display: flex;
-            justify-content: space-between;
-            margin-top: 30px;
-          "
-        >
-          <p style="font-size: 18px">
-            <span><i class="fa-brands fa-apple"></i></span> Junior Software
-            Engineer at Apple.
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              margin-top: 30px;
+            "
+          >
+            <p style="font-size: 18px">
+              <span><i class="fa-brands fa-apple"></i></span> Junior Software
+              Engineer at Apple.
+            </p>
+            <p style="font-size: 18px">Jan 2016 - Dec 2017</p>
+          </div>
+          <br />
+          <p style="color: grey; font-style: italic">
+            During my tenure at Apple, I held the role of software architect,
+            where I played a role in shaping the<br />architecture of
+            mission-critical software project. Responsible for designing
+            scalable and efficient systems, I<br />provided technical leadership
+            to a cross-functional team.
           </p>
-          <p style="font-size: 18px">Jan 2016 - Dec 2017</p>
-        </div>
-        <br />
-        <p style="color: grey; font-style: italic">
-          During my tenure at Apple, I held the role of software architect,
-          where I played a role in shaping the<br />architecture of
-          mission-critical software project. Responsible for designing scalable
-          and efficient systems, I<br />provided technical leadership to a
-          cross-functional team.
-        </p>
 
-        <div
-          style="
-            display: flex;
-            justify-content: space-between;
-            margin-top: 30px;
-          "
-        >
-          <p style="font-size: 18px">
-            <span style="color: rgba(85, 85, 207, 0.874)"
-              ><i class="fa-brands fa-meta"></i
-            ></span>
-            Software Engineer at Meta.
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              margin-top: 30px;
+            "
+          >
+            <p style="font-size: 18px">
+              <span style="color: rgba(85, 85, 207, 0.874)"
+                ><i class="fa-brands fa-meta"></i
+              ></span>
+              Software Engineer at Meta.
+            </p>
+            <p style="font-size: 18px">Jan 2017 - Oct 2019</p>
+          </div>
+          <br />
+          <p style="color: grey; font-style: italic">
+            At Meta, I served as a Software Engineer, focusing on the design and
+            implementation of backend systems for<br />the social media giant's
+            dynamic platform. Working on projects that involved large-scale data
+            processing and<br />user engagement features, I leveraged my
+            expertise to ensure seamless functionality and scalability.
           </p>
-          <p style="font-size: 18px">Jan 2017 - Oct 2019</p>
         </div>
-        <br />
-        <p style="color: grey; font-style: italic">
-          At Meta, I served as a Software Engineer, focusing on the design and
-          implementation of backend systems for<br />the social media giant's
-          dynamic platform. Working on projects that involved large-scale data
-          processing and<br />user engagement features, I leveraged my expertise
-          to ensure seamless functionality and scalability.
-        </p>
-      </div>
-    </article>
+      </article>
+    </main>
   </body>
   <footer id="contact">
     <div style="width: 50%; margin: auto">
