@@ -35,38 +35,7 @@
             </h2>
           </span>
         </div>
-        <div style="display: flex; align-items: center;">
-          <span>
-            <svg
-              width="32"
-              height="32"
-              viewBox="0 0 32 32"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              style="vertical-align: middle"
-            >
-              <path d="M6 2H26V12H16V22H26V30H6V20H16V10H6V2Z" fill="#0055FF" />
-            </svg>
-            <h2
-              style="
-                display: inline-block;
-                vertical-align: middle;
-                margin-left: 10px;
-                font-size: 1.7rem;
-                font-weight: 700;
-                color: #0055ff;
-              "
-            >
-              Framer
-            </h2>
-          </span>
-          <button class="hamburger" aria-label="Toggle navigation" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-        </div>
-        <ul class="nav-links">
+        <ul>
           <li><a href="#features">Features</a></li>
           <li><a href="#resources">Resources</a></li>
           <li><a href="#support">Support</a></li>
@@ -74,7 +43,7 @@
           <li><a href="index.html">Enterprise</a></li>
           <li><a href="#pricing">Pricing</a></li>
         </ul>
-        <ul class="nav-links nav-links-secondary">
+        <ul>
           <li><a href="#contact-sales">Contact Sales</a></li>
           <li><a href="#login">Login</a></li>
           <button class="start">Start for free</button>
@@ -82,9 +51,27 @@
       </nav>
     </header>
     <main>
-      <section class="hero">
-        <h1>Stunning Designs.<br />Dynamic Layouts.</h1>
-        <p>
+      <section
+        class="hero"
+        style="
+          display: grid;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        "
+      >
+        <h1 style="margin-top: 150px; font-size: 7rem; font-weight: 700">
+          Stunning Designs.<br />Dynamic Layouts.
+        </h1>
+        <p
+          style="
+            color: grey;
+            font-style: italic;
+            margin-top: 30px;
+            font-size: 24px;
+            line-height: 1.6;
+          "
+        >
           Use powerful and yet familiar tools to create your ultimate website
           <br />design. Import your design from Figma, add flexible Grids &<br />Stacks,
           use absolute positioning, and work on your breakpoints<br />side-by-side
@@ -92,11 +79,5 @@
         </p>
       </section>
     </main>
-    <script>
-    function toggleMenu() {
-      document.querySelectorAll('.nav-links').forEach(el => el.classList.toggle('active'));
-      document.querySelector('.hamburger').classList.toggle('active');
-    }
-    </script>
   </body>
 </html>
