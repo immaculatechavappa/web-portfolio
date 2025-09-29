@@ -202,4 +202,15 @@ article {
   #contact ul {
     gap: 10px;
   }
+  /* Ensure all brand icons are visible and wrap if needed */
+  .hero-section > ul {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 0;
+  }
+  .hero-section > ul li {
+    display: inline-block;
+  }
 }
